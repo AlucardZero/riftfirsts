@@ -22,6 +22,15 @@ You should end up with six large .xml files.
 Usage: ./first.pl [-n "Character Name"] [-g "Guild Name"] [-s "Shard Name"]
 Options may be given in any combination, including none.
 
+Example:
+
+    $ ./first.pl -n "Flashwit" -g "Honey Badgers"
+
+    Achievements:
+    Nightmare IV: Avousso: Flashwit@Deepwood of Honey Badgers at 2014-11-07 
+     02:03:49 GMT
+    # etc
+
 Parsing and display will be slow as there is over 500MB of data to look
 through!
 
