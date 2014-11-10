@@ -1,0 +1,28 @@
+Rift Shard First Lister
+
+Finds and lists shard firsts for achievement completion, artifact collection
+completion, item acquiring, NPC killing, quest completion, and recipe learning.
+
+See LICENSE for license details.
+
+A Unix system with Perl 5.12+ is required.  The following Perl modules are also
+required. If you do not have them, install them via CPAN or your distribution's
+package manager if available:
+
+XML::LibXML
+XML::LibXML::Reader
+Getopt::Long
+Date::Parse
+
+Before using:
+Download the latest Rift Discoveries file from 
+ftp://ftp.trionworlds.com/rift/data/ and unzip it into the current directory.
+You should end up with six large .xml files.
+
+Usage: ./first.pl [-n "Character Name"] [-g "Guild Name"] [-s "Shard Name"]
+Options may be given in any combination, including none.
+
+Parsing and display will be slow as there is over 500MB of data to look
+through!
+
+Data is straight from Trion, so any weird results are their fault.
